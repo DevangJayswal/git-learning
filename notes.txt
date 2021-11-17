@@ -11,3 +11,20 @@ push an existing repository from the command line
 	git remote add origin https://github.com/DevangJayswal/git-learning.git
 	git branch -M main
 	git push -u origin main
+	
+	git -> all commands
+	git status -> to know status of files in all areas
+	git ls-files -> list all files which are tracked by git
+	git log
+	git -a -m "commit message" -> stage and commit
+	
+to add all files in current working directory
+	git add .
+	git add *
+	git add -A 
+	
+	git add file1.txt file2.txt 
+	git add *.java 
+	git add *.txt 
+	
+	
