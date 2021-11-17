@@ -40,3 +40,5 @@ to add all files in current working directory
 	git log --oneline
 	git log -n 2
 	git log -n 2 --oneline
+	
+	git diff --name-only --cached -> show file that are in staging area
