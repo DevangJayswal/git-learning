@@ -14,8 +14,7 @@ push an existing repository from the command line
 	
 	git -> all commands
 	git status -> to know status of files in all areas
-	git ls-files -> list all files which are tracked by git
-	git log
+	git ls-files -> list all files which are tracked by git or in staging area	
 	git -a -m "commit message" -> stage and commit
 	
 to add all files in current working directory
@@ -27,4 +26,17 @@ to add all files in current working directory
 	git add *.java 
 	git add *.txt 
 	
+	git config
+	git config --list
+	git config user.name
+	git config user.email
+	git config user.name "NewLocalUsername"
+	git config --global user.name "NewGlobalUsername"
 	
+	git log
+	git log --help
+	git log . 
+	git log file1.txt
+	git log --oneline
+	git log -n 2
+	git log -n 2 --oneline
