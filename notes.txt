@@ -42,3 +42,13 @@ to add all files in current working directory
 	git log -n 2 --oneline
 	
 	git diff --name-only --cached -> show file that are in staging area
+	
+	git show <commit_id>
+	
+	git clone -b <branchname> <remote-repo-url>
+	
+	change default branch name
+	git config --global init.defaultBranch main
+	
+	display what we can checkout, files which are unstaged will be displayed
+	git checkout
