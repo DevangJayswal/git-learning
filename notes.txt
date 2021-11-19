@@ -17,7 +17,7 @@ push an existing repository from the command line
 	git ls-files -> list all files which are tracked by git or in staging area	
 	git -a -m "commit message" -> stage and commit
 	
-to add all files in current working directory
+to add all files in current working directory, git add start tracking file and add it to staging area
 	git add .
 	git add *
 	git add -A 
@@ -50,5 +50,18 @@ to add all files in current working directory
 	change default branch name
 	git config --global init.defaultBranch main
 	
-	display what we can checkout, files which are unstaged will be displayed
+	display what we can checkout
 	git checkout
+	
+	$ git checkout
+	M       f1
+	A       f2
+	A       f3	
+	
+	M = modified
+	A = added
+	D = deleted
+	R = renamed
+	C = copied
+	U = updated but unmerged
+	
