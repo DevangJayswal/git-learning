@@ -71,6 +71,5 @@ to add all files in current working directory, git add start tracking file and a
 	This will create a new branch with zero commits on it, however all of your files will be staged. At that point you could just remove them.
 	("remove them": A git reset --hard will empty the index, leaving you with an empty working tree)
 
-## remove untracked directories ###[readmore](https://stackoverflow.com/questions/1499157/git-checkout-pull-doesnt-remove-directories)
+## remove untracked directories [readmore](https://stackoverflow.com/questions/1499157/git-checkout-pull-doesnt-remove-directories)
 `git clean -fd`
-
