@@ -71,5 +71,13 @@ to add all files in current working directory, git add start tracking file and a
 	This will create a new branch with zero commits on it, however all of your files will be staged. At that point you could just remove them.
 	("remove them": A git reset --hard will empty the index, leaving you with an empty working tree)
 
-## remove untracked directories [readmore](https://stackoverflow.com/questions/1499157/git-checkout-pull-doesnt-remove-directories)
+## remove untracked directories [read more](https://stackoverflow.com/questions/1499157/git-checkout-pull-doesnt-remove-directories)
 `git clean -fd`
+
+## as the files in `.gitignore` are not being tracked, you can use the git clean command to recursively remove files that are not under version control. [read more](https://stackoverflow.com/questions/13541615/how-to-remove-files-that-are-listed-in-the-gitignore-but-still-on-the-repositor)
+*  to perform a dry run and see what will be removed
+	* `git clean -xdn`
+* to execute it
+	* `git clean -xdf`
+
+Be aware that this command will also remove new files that are not in the staging area
