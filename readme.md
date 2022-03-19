@@ -1,13 +1,14 @@
-create a new repository on the command line
+## create a new repository on the command line
 	echo "# git-learning" >> README.md
 	git init -> initialize the current directory as git repository
 	git add README.md -> add file to staging area
-	git commit -m "first commit" -> commit the file
+	commit the file
+	git commit -m "first commit"
 	git branch -M main -> 
 	git remote add origin https://github.com/DevangJayswal/git-learning.git
 	git push -u origin main
 	
-push an existing repository from the command line
+## push an existing repository from the command line
 	git remote add origin https://github.com/DevangJayswal/git-learning.git
 	git branch -M main
 	git push -u origin main
@@ -17,7 +18,7 @@ push an existing repository from the command line
 	git ls-files -> list all files which are tracked by git or in staging area	
 	git -a -m "commit message" -> stage and commit
 	
-to add all files in current working directory, git add start tracking file and add it to staging area
+## to add all files in current working directory, git add start tracking file and add it to staging area
 	git add .
 	git add *
 	git add -A 
