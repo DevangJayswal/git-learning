@@ -6,7 +6,8 @@
 	git commit -m "first commit"
 	git branch -M main -> 
 	git remote add origin https://github.com/DevangJayswal/git-learning.git
-	git push -u origin main
+	git push https://<GITHUB_ACCESS_TOKEN>@github.com/<GITHUB_USERNAME>/<REPOSITORY_NAME>.git
+	git push -u origin main // username and password method is not working anymore
 	
 ## push an existing repository from the command line
 	git remote add origin https://github.com/DevangJayswal/git-learning.git
