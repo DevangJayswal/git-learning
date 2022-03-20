@@ -9,10 +9,25 @@
 	git push https://<GITHUB_ACCESS_TOKEN>@github.com/<GITHUB_USERNAME>/<REPOSITORY_NAME>.git
 	git push -u origin main // username and password method is not working anymore
 	
+	
+	
 ## push an existing repository from the command line
-	git remote add origin https://github.com/DevangJayswal/git-learning.git
+	git remote add origin <git_repository_Url>
+	git remote add origin https://github.com/DevangJayswal/devang-java-teaching-assistance.git
+	
+	git branch -M <new_branch_to_be_created|existing_branch>
 	git branch -M main
+	
+	git push -u origin <new_branch_to_be_created|existing_branch>
 	git push -u origin main
+	
+	Username: <my-username>
+	devang.jayswal
+	Password: <my-personal-access-token>
+	dhp_l_tXEx4m8wpaaNhyB38wTrIDg1c8474PM7kk
+	
+	NOTE: TO generate access_token, login to Github 
+		-> Settings -> Developer Settings -> Personal access tokens -> Generate new token
 	
 	git -> all commands
 	git status -> to know status of files in all areas
